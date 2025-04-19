@@ -4,6 +4,8 @@ A modern and intuitive expense tracking web application built with React and Nod
 
 ---
 
+![Dashboard Screenshot](screenshotsExpenseApp/ss2.png)
+
 ## ✨ Features
 
 - 🧾 Add, edit, and delete expenses
