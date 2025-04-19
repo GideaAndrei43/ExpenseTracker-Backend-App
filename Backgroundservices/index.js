@@ -12,7 +12,7 @@ mongoose.connect(process.env.DB_CONNECTION).then(()=>{
   console.log(err);
 });
 app.listen(process.env.PORT,()=>{
-  console.log(`Server is running on port ${process.env.PORT}`)
+  console.log(`Background services are running on port ${process.env.PORT}`)
 })
 
 const scheduleRun=()=>{
