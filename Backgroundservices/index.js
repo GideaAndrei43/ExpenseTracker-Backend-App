@@ -16,7 +16,7 @@ app.listen(process.env.PORT,()=>{
 })
 
 const scheduleRun=()=>{
-  cron.schedule('* * * * * *',()=>{
+  cron.schedule('* * * * *',()=>{
     expenseEmail()
   });
 };
